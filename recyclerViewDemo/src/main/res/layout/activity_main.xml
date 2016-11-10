@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/myPtrFrameLayout"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btn_linear_layout"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        cube_ptr:ptr_duration_to_close="300"
-        cube_ptr:ptr_duration_to_close_header="2000"
-        cube_ptr:ptr_keep_header_when_refresh="true"
-        cube_ptr:ptr_pull_to_fresh="false"
-        cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
-        cube_ptr:ptr_resistance="1.7">
+        android:text="线性布局" />
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView" />
+    <Button
+        android:id="@+id/btn_grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网格布局" />
 
-    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
-</RelativeLayout>
+    <Button
+        android:id="@+id/btn_staggered_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="瀑布流布局" />
+
+</LinearLayout>

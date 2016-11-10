@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="160dp"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
+    <View
+        android:id="@+id/view_line"
         android:layout_width="match_parent"
-        android:text="hhhhhhhhh"
-        android:textSize="14sp"
-        android:layout_height="30dp" />
+        android:layout_height="2dp"
+        android:background="#ff3344" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_line"
+        android:scaleType="centerCrop" />
 </RelativeLayout>
