@@ -8,8 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:textSize="14sp"
-        android:text="展示RecyclerView 下拉刷新和上拉加载更多，可添加head,foot布局,可添加点击事件和长按点击事件" />
+        android:text="展示RecyclerView 下拉刷新和上拉加载更多，可添加head,foot布局,可添加点击事件和长按点击事件"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/btn_linear_layout"
@@ -28,5 +28,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="瀑布流布局" />
+
+    <Button
+        android:id="@+id/btn_banner_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="头部是一个轮播控件" />
+
+    <Button
+        android:id="@+id/btn_test_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试轮播控件" />
 
 </LinearLayout>

@@ -6,35 +6,75 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="BaseAdapter" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dfbe599-7b6f-4ce8-a02b-35ea7320336d" name="Default" comment="实现recyclerView可添加头布局，点击和长按事件。优化BaseAdapter代码结构">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/drawable-xxhdpi/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ImageUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnItemLongClickListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/adapter/RvAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/head_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/load_all_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/loading_view.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/MyAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/footer_view_load_more.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/glide_3_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnBannerClickListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/BannerActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/BannerHeadActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/AccordionPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/AlphaPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/BGAPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/CubePageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/DefaultPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/DepthPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/FadePageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/FlipPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/RotatePageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/StackPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/TransitionEffect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/ZoomCenterPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/ZoomFadePageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/ZoomPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/ZoomStackPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/developer/ZoomOutPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/BGABannerScroller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/BannerViewPager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/SuperCopyBanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/drawable/bg_banner_selector_point_solid.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_banner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_banner_head.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/banner_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/item_banner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/values/attr_banner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/values/ids.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_0_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_24_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/GridLayoutActivity.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/GridLayoutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/LinearLayoutActivity.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/LinearLayoutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/StaggeredGridLayoutActivity.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/StaggeredGridLayoutActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/build.gradle" afterPath="$PROJECT_DIR$/recyclerViewDemo/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/recyclerViewDemo.iml" afterPath="$PROJECT_DIR$/recyclerViewDemo/recyclerViewDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/MainActivity.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_main.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/BaseAdapter.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_24_0_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/GridLayoutActivity.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/GridLayoutActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/LinearLayoutActivity.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/LinearLayoutActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/StaggeredGridLayoutActivity.java" afterPath="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/StaggeredGridLayoutActivity.java" />
     </list>
     <ignored path="RecyclerViewPlus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,14 +107,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImageUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ImageUtil.java">
+      <file leaf-file-name="BannerHeadActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/BannerHeadActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            <state relative-caret-position="-1255">
+              <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+              <folding>
+                <element signature="e#2457#2707#0" expanded="true" />
+                <element signature="e#2706#2707#0" expanded="true" />
+                <element signature="e#3897#4037#0" expanded="true" />
+                <element signature="e#4036#4037#0" expanded="true" />
+                <element signature="e#4452#4872#0" expanded="true" />
+                <element signature="e#4871#4872#0" expanded="true" />
+                <element signature="e#4965#5233#0" expanded="true" />
+                <element signature="e#5232#5233#0" expanded="true" />
+                <element signature="e#5283#5559#0" expanded="true" />
+                <element signature="e#5558#5559#0" expanded="true" />
+                <element signature="e#5604#5831#0" expanded="true" />
+                <element signature="e#5830#5831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/banner_layout.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperCopyBanner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/SuperCopyBanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="958">
+              <caret line="251" column="17" selection-start-line="251" selection-start-column="17" selection-end-line="251" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#10262#10451#0" expanded="true" />
+                <element signature="e#10450#10451#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/lang/Enum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+              <folding>
+                <element signature="e#4182#4183#0" expanded="true" />
+                <element signature="e#4212#4213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransitionEffect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/TransitionEffect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attr_banner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/values/attr_banner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/android/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="11709" column="0" selection-start-line="11709" selection-start-column="0" selection-end-line="11709" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,43 +203,39 @@
       <file leaf-file-name="RvAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/adapter/RvAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+            <state relative-caret-position="189">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridLayoutActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/GridLayoutActivity.java">
+      <file leaf-file-name="BaseAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="132" column="54" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
+            <state relative-caret-position="-567">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding>
-                <element signature="e#3362#3635#0" expanded="true" />
-                <element signature="e#3634#3635#0" expanded="true" />
+                <element signature="e#2183#3138#0" expanded="true" />
+                <element signature="e#3137#3138#0" expanded="true" />
+                <element signature="e#5731#6095#0" expanded="true" />
+                <element signature="e#6094#6095#0" expanded="true" />
+                <element signature="e#6215#6625#0" expanded="true" />
+                <element signature="e#6624#6625#0" expanded="true" />
+                <element signature="e#7517#8061#0" expanded="true" />
+                <element signature="e#8060#8061#0" expanded="true" />
+                <element signature="e#8893#9219#0" expanded="true" />
+                <element signature="e#9218#9219#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinearLayoutActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/LinearLayoutActivity.java">
+      <file leaf-file-name="RecyclerView.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.0.0/recyclerview-v7-24.0.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="88" column="65" selection-start-line="88" selection-start-column="65" selection-end-line="88" selection-end-column="65" />
+            <state relative-caret-position="202">
+              <caret line="9186" column="63" selection-start-line="9186" selection-start-column="63" selection-end-line="9186" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -131,6 +248,7 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="ASClass" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -183,11 +301,6 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportDesign2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'RecyclerViewPlus'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
@@ -196,11 +309,6 @@
                 <option name="description" value="Prepare com.jakewharton:butterknife:8.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComJakewhartonButterknife840Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:transition:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportTransition2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -226,11 +334,6 @@
                 <option name="description" value="Runs lint on the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -289,11 +392,6 @@
                 <option name="name" value="processDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lint" />
@@ -343,11 +441,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -432,17 +525,17 @@
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:24.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportDesign2400Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="checkReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -509,6 +602,11 @@
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72400Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -560,11 +658,6 @@
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:cardview-v7:24.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportCardviewV72411Library" />
@@ -595,11 +688,6 @@
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
@@ -623,11 +711,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -660,11 +743,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -803,11 +881,6 @@
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugJniLibFolders" />
               </ExternalTaskPojo>
@@ -915,11 +988,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1622,11 +1690,6 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportDesign2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.jakewharton:butterknife:8.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="prepareComJakewhartonButterknife840Library" />
@@ -1635,11 +1698,6 @@
                 <option name="description" value="Displays the sub-projects of project ':recyclerViewDemo'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:transition:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportTransition2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -1667,11 +1725,6 @@
                 <option name="name" value="lintDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
@@ -1684,6 +1737,11 @@
                 <option name="description" value="Displays the configuration model of project ':recyclerViewDemo'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:24.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
+                <option name="name" value="prepareComAndroidSupportSupportV42411Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':recyclerViewDemo'." />
@@ -1707,11 +1765,6 @@
                 <option name="description" value="Displays all dependencies declared in project ':recyclerViewDemo'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -1763,11 +1816,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="mergeDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -1842,6 +1890,11 @@
                 <option name="name" value="generateDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:24.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
+                <option name="name" value="prepareComAndroidSupportDesign2400Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
@@ -1852,11 +1905,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="checkReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -1923,6 +1971,11 @@
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72400Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="help" />
@@ -1969,11 +2022,6 @@
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="packageRelease" />
               </ExternalTaskPojo>
@@ -1992,11 +2040,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="preDebugUnitTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -2022,11 +2065,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -2059,11 +2097,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -2113,6 +2146,11 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2411Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="testDebugUnitTest" />
@@ -2142,6 +2180,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2411Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -2187,11 +2230,6 @@
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="mergeDebugJniLibFolders" />
               </ExternalTaskPojo>
@@ -2215,6 +2253,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:24.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72411Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
@@ -2287,11 +2330,6 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
-                <option name="name" value="prepareComAndroidSupportSupportV42500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerViewDemo" />
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
@@ -2308,7 +2346,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="4433167277000" />
-        <entry key="D:\github\RecyclerViewPlus" value="5914676372157" />
+        <entry key="D:\github\RecyclerViewPlus" value="5914833966604" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2734,7 +2772,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/Constant.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/MainActivity.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/model/Images.java" />
-        <option value="$PROJECT_DIR$/recyclerViewDemo/build.gradle" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/item.xml" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/MyLoadMoreAdapter.java" />
@@ -2744,7 +2781,6 @@
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_grid_layout.xml" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_linear_layout.xml" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_staggered_grid_layout.xml" />
-        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/MainActivity.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/head_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/adpter/BaseAdapter.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnItemLongClickListener.java" />
@@ -2754,14 +2790,30 @@
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/adapter/MyAdapter.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/loading_view.xml" />
-        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/StaggeredGridLayoutActivity.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/load_all_view.xml" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ImageUtil.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/GridLayoutActivity.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/LinearLayoutActivity.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/adapter/RvAdapter.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/BannerViewPager.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/BGABannerScroller.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/StackPageTransformer.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnBannerClickListener.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/item_banner.xml" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/build.gradle" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/GridLayoutActivity.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/StaggeredGridLayoutActivity.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_banner_head.xml" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/LinearLayoutActivity.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_banner.xml" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/BannerActivity.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/MainActivity.java" />
         <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseAdapter.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/banner_layout.xml" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/SuperCopyBanner.java" />
+        <option value="$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/BannerHeadActivity.java" />
       </list>
     </option>
   </component>
@@ -2796,15 +2848,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RecyclerViewPlus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RecyclerViewPlus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RecyclerViewPlus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane />
       </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2825,9 +2894,18 @@
       <recent name="com.example.loadmoredemo" />
     </key>
     <key name="android.template.packageName">
+      <recent name="com.example.loadmoredemo.ui.activity" />
       <recent name="com.example.loadmoredemo.ui" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.loadmoredemo.listener" />
+      <recent name="com.example.loadmoredemo.ui.widget" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\RecyclerViewPlus\recyclerViewDemo\src\main\res\drawable" />
+      <recent name="D:\github\RecyclerViewPlus\recyclerViewDemo\src\main\res\layout" />
+      <recent name="D:\github\RecyclerViewPlus\recyclerViewDemo\src\main\res\values" />
+      <recent name="D:\github\RecyclerViewPlus\recyclerViewDemo\src\main\java\com\example\loadmoredemo\ui" />
       <recent name="D:\github\RecyclerViewPlus\recyclerViewDemo\src\main\res\drawable--xxhdpi" />
     </key>
   </component>
@@ -3203,16 +3281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1478768836386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="实现recyclerView可添加头布局，点击和长按事件。优化BaseAdapter代码结构">
+      <created>1478834115053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1478834115053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61002785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3221,7 +3306,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3231,8 +3316,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33290488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33290488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3242,6 +3326,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3266,169 +3351,157 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#1677#1818#0" expanded="false" />
-            <element signature="e#1817#1818#0" expanded="false" />
-            <element signature="e#3615#3814#0" expanded="false" />
-            <element signature="e#3813#3814#0" expanded="false" />
-            <element signature="e#3862#4243#0" expanded="false" />
-            <element signature="e#4242#4243#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/edu/jnu/recyclerviewplus/adpter/RecyclerViewPlusAdapter$ViewHolder_ViewBinding.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.0.0/recyclerview-v7-25.0.0-sources.jar!/android/support/v7/widget/LinearLayoutManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        <state relative-caret-position="796">
+          <caret line="1757" column="15" selection-start-line="1757" selection-start-column="15" selection-end-line="1757" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.0.0/recyclerview-v7-25.0.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
+        <state relative-caret-position="-1310">
+          <caret line="7885" column="19" selection-start-line="7885" selection-start-column="19" selection-end-line="7885" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/adpter/BaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3766">
+          <caret line="343" column="45" selection-start-line="343" selection-start-column="45" selection-end-line="343" selection-end-column="45" />
+          <folding>
+            <element signature="e#9778#11078#0" expanded="false" />
+            <element signature="e#11077#11078#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/FadePageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/AlphaPageTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/ZoomFadePageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/FlipPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/StackPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/AccordionPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/developer/ZoomOutPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/CubePageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/DepthPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnBannerClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recyclerViewDemo/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/in.srain.cube/ultra-ptr/1.0.11/48c7d061c113c372fb728c7e6702100faffd7d35/ultra-ptr-1.0.11-sources.jar!/in/srain/cube/views/ptr/PtrDefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.0.0/recyclerview-v7-25.0.0-sources.jar!/android/support/v7/widget/LinearLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="101" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="717" column="25" selection-start-line="717" selection-start-column="25" selection-end-line="717" selection-end-column="25" />
-          <folding>
-            <element signature="e#30531#30532#0" expanded="false" />
-            <element signature="e#30596#30597#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.1.1/recyclerview-v7-24.1.1-sources.jar!/android/support/v7/widget/GridLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="794" column="16" selection-start-line="794" selection-start-column="16" selection-end-line="794" selection-end-column="16" />
-          <folding>
-            <element signature="e#32862#32863#0" expanded="false" />
-            <element signature="e#32895#32896#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.0.0/recyclerview-v7-25.0.0-sources.jar!/android/support/v7/widget/GridLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.1.1/recyclerview-v7-24.1.1-sources.jar!/android/support/v7/widget/StaggeredGridLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="1002" column="17" selection-start-line="1002" selection-start-column="17" selection-end-line="1002" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnLoadMoreListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_grid_layout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_staggered_grid_layout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/24a0b0e63af9530bcedd06ed1983a4f2f02155a3/glide-3.7.0-sources.jar!/com/bumptech/glide/RequestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="472">
+          <caret line="596" column="38" selection-start-line="596" selection-start-column="38" selection-end-line="596" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/drawable/bg_banner_selector_point_solid.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/StaggeredGridLayoutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3437,8 +3510,55 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
+        <state relative-caret-position="-214">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/GridLayoutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_banner_head.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/item_banner.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/LinearLayoutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/android/content/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="596" column="28" selection-start-line="596" selection-start-column="28" selection-end-line="596" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3447,76 +3567,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.0.0/recyclerview-v7-25.0.0-sources.jar!/android/support/v7/widget/StaggeredGridLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="244" column="11" selection-start-line="244" selection-start-column="11" selection-end-line="244" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnItemLongClickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/android/view/LayoutInflater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#45177#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3481#3518#0" expanded="false" />
-            <element signature="e#7914#7915#0" expanded="false" />
-            <element signature="e#7948#7949#0" expanded="false" />
-            <element signature="e#9740#9741#0" expanded="false" />
-            <element signature="e#9771#9772#0" expanded="false" />
-            <element signature="e#10046#10047#0" expanded="false" />
-            <element signature="e#10077#10078#0" expanded="false" />
-            <element signature="e#10464#10465#0" expanded="false" />
-            <element signature="e#10496#10497#0" expanded="false" />
-            <element signature="e#12953#12954#0" expanded="false" />
-            <element signature="e#12983#12984#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/adpter/RecyclerViewPlusAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.0.0/recyclerview-v7-25.0.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="9527" column="20" selection-start-line="9527" selection-start-column="20" selection-end-line="9527" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.1.1/recyclerview-v7-24.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="7540" column="19" selection-start-line="7540" selection-start-column="19" selection-end-line="7540" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -3526,27 +3578,49 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/android/util/AttributeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="446">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseActivity.java">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/24.1.1/support-v4-24.1.1-sources.jar!/android/support/v4/view/ViewPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="229">
+          <caret line="632" column="9" selection-start-line="632" selection-start-column="9" selection-end-line="632" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/BannerViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/BGABannerScroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3555,167 +3629,200 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="488">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/listener/OnItemClickListener.java">
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/BannerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/adpter/BaseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4671">
-          <caret line="303" column="17" selection-start-line="303" selection-start-column="17" selection-end-line="303" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/StaggeredGridLayoutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="96" column="15" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
-          <folding>
-            <element signature="e#3239#3516#0" expanded="true" />
-            <element signature="e#3515#3516#0" expanded="true" />
-            <element signature="e#3566#3851#0" expanded="true" />
-            <element signature="e#3850#3851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/loading_view.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/load_all_view.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_loading.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_button.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/anim_loading.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/res/drawable-xhdpi-v4/ptr_rotate_arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/drawable-xxhdpi/bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ImageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        <state relative-caret-position="527">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/Constants.java">
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/activity_banner.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="243">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/GridLayoutActivity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/in.srain.cube/ultra-ptr/1.0.11/48c7d061c113c372fb728c7e6702100faffd7d35/ultra-ptr-1.0.11-sources.jar!/in/srain/cube/views/ptr/PtrDefaultHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="132" column="54" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
+        <state relative-caret-position="108">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/in.srain.cube/ultra-ptr/1.0.11/48c7d061c113c372fb728c7e6702100faffd7d35/ultra-ptr-1.0.11-sources.jar!/in/srain/cube/views/ptr/PtrHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/in.srain.cube/ultra-ptr/1.0.11/48c7d061c113c372fb728c7e6702100faffd7d35/ultra-ptr-1.0.11-sources.jar!/in/srain/cube/views/ptr/PtrFrameLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4117">
+          <caret line="770" column="16" selection-start-line="770" selection-start-column="16" selection-end-line="770" selection-end-column="16" />
           <folding>
-            <element signature="e#3362#3635#0" expanded="true" />
-            <element signature="e#3634#3635#0" expanded="true" />
+            <element signature="e#27072#27073#0" expanded="true" />
+            <element signature="e#27112#27113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/LinearLayoutActivity.java">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.1.1/recyclerview-v7-24.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="88" column="65" selection-start-line="88" selection-start-column="65" selection-end-line="88" selection-end-column="65" />
+        <state relative-caret-position="219">
+          <caret line="4247" column="28" selection-start-line="4247" selection-start-column="12" selection-end-line="4247" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/jnu/recyclerviewplus/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+          <folding>
+            <element signature="e#3615#3814#0" expanded="true" />
+            <element signature="e#3813#3814#0" expanded="true" />
+            <element signature="e#3862#4243#0" expanded="true" />
+            <element signature="e#4242#4243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/adapter/RvAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/base/BaseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        <state relative-caret-position="-567">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="e#2183#3138#0" expanded="true" />
+            <element signature="e#3137#3138#0" expanded="true" />
+            <element signature="e#5731#6095#0" expanded="true" />
+            <element signature="e#6094#6095#0" expanded="true" />
+            <element signature="e#6215#6625#0" expanded="true" />
+            <element signature="e#6624#6625#0" expanded="true" />
+            <element signature="e#7517#8061#0" expanded="true" />
+            <element signature="e#8060#8061#0" expanded="true" />
+            <element signature="e#8893#9219#0" expanded="true" />
+            <element signature="e#9218#9219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="11709" column="0" selection-start-line="11709" selection-start-column="0" selection-end-line="11709" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.0.0/recyclerview-v7-24.0.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="9186" column="63" selection-start-line="9186" selection-start-column="63" selection-end-line="9186" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+          <folding>
+            <element signature="e#4182#4183#0" expanded="true" />
+            <element signature="e#4212#4213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/transformer/TransitionEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/layout/banner_layout.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/res/values/attr_banner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/widget/SuperCopyBanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="958">
+          <caret line="251" column="17" selection-start-line="251" selection-start-column="17" selection-end-line="251" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10262#10451#0" expanded="true" />
+            <element signature="e#10450#10451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recyclerViewDemo/src/main/java/com/example/loadmoredemo/ui/activity/BannerHeadActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1255">
+          <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+          <folding>
+            <element signature="e#2457#2707#0" expanded="true" />
+            <element signature="e#2706#2707#0" expanded="true" />
+            <element signature="e#3897#4037#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="e#4452#4872#0" expanded="true" />
+            <element signature="e#4871#4872#0" expanded="true" />
+            <element signature="e#4965#5233#0" expanded="true" />
+            <element signature="e#5232#5233#0" expanded="true" />
+            <element signature="e#5283#5559#0" expanded="true" />
+            <element signature="e#5558#5559#0" expanded="true" />
+            <element signature="e#5604#5831#0" expanded="true" />
+            <element signature="e#5830#5831#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

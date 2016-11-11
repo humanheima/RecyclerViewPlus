@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_banner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loadmoredemo.ui.activity.BannerActivity">
+
+    <com.example.loadmoredemo.ui.widget.SuperCopyBanner
+        android:id="@+id/test_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.example.loadmoredemo.ui.widget.SuperCopyBanner>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.example.loadmoredemo.ui.widget.SuperCopyBanner
+        android:id="@+id/super_banner"
+        app:banner_point_gravity="bottom|left"
+        app:is_num_indicator="false"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.example.loadmoredemo.ui.widget.SuperCopyBanner>
+</LinearLayout>

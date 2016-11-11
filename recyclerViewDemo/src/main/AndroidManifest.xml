@@ -17,9 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.LinearLayoutActivity" />
-        <activity android:name=".ui.GridLayoutActivity" />
-        <activity android:name=".ui.StaggeredGridLayoutActivity"></activity>
+        <activity android:name=".ui.activity.LinearLayoutActivity" />
+        <activity android:name=".ui.activity.GridLayoutActivity" />
+        <activity android:name=".ui.activity.StaggeredGridLayoutActivity" />
+        <activity android:name=".ui.activity.BannerHeadActivity" />
+        <activity android:name=".ui.activity.BannerActivity"></activity>
     </application>
 
 </manifest>

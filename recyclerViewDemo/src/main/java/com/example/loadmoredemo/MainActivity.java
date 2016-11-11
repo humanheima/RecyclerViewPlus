@@ -6,9 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.loadmoredemo.ui.GridLayoutActivity;
-import com.example.loadmoredemo.ui.LinearLayoutActivity;
-import com.example.loadmoredemo.ui.StaggeredGridLayoutActivity;
+import com.example.loadmoredemo.ui.activity.BannerActivity;
+import com.example.loadmoredemo.ui.activity.BannerHeadActivity;
+import com.example.loadmoredemo.ui.activity.GridLayoutActivity;
+import com.example.loadmoredemo.ui.activity.LinearLayoutActivity;
+import com.example.loadmoredemo.ui.activity.StaggeredGridLayoutActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnGridLayout;
     @BindView(R.id.btn_staggered_layout)
     Button btnStaggeredLayout;
+    @BindView(R.id.btn_banner_head)
+    Button btnBannerHead;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btn_linear_layout, R.id.btn_grid_layout, R.id.btn_staggered_layout})
+    @OnClick({R.id.btn_linear_layout, R.id.btn_grid_layout, R.id.btn_staggered_layout, R.id.btn_banner_head, R.id.btn_test_banner})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_linear_layout:
@@ -42,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_staggered_layout:
                 startActivity(new Intent(this, StaggeredGridLayoutActivity.class));
+                break;
+            case R.id.btn_banner_head:
+                startActivity(new Intent(this, BannerHeadActivity.class));
+                break;
+            case R.id.btn_test_banner:
+                startActivity(new Intent(this, BannerActivity.class));
                 break;
             default:
                 break;
