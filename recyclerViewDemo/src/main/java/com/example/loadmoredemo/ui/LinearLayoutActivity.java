@@ -2,16 +2,20 @@ package com.example.loadmoredemo.ui;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.loadmoredemo.Constants;
-import com.example.loadmoredemo.MyAdapter;
 import com.example.loadmoredemo.R;
+import com.example.loadmoredemo.listener.OnItemClickListener;
+import com.example.loadmoredemo.listener.OnItemLongClickListener;
 import com.example.loadmoredemo.listener.OnLoadMoreListener;
+import com.example.loadmoredemo.ui.adapter.RvAdapter;
+import com.example.loadmoredemo.ui.base.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,9 +26,9 @@ import in.srain.cube.views.ptr.PtrClassicFrameLayout;
 import in.srain.cube.views.ptr.PtrDefaultHandler;
 import in.srain.cube.views.ptr.PtrFrameLayout;
 
-public class LinearLayoutActivity extends AppCompatActivity {
+public class LinearLayoutActivity extends BaseActivity {
 
-    MyAdapter adapter;
+    RvAdapter adapter;
     List<String> dataList = new ArrayList<>();
     int page = 1;
     @BindView(R.id.recyclerView)
@@ -37,7 +41,9 @@ public class LinearLayoutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linear_layout);
         ButterKnife.bind(this);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        headerView = LayoutInflater.from(this).inflate(R.layout.head_view, null);
+        loadingView = LayoutInflater.from(this).inflate(R.layout.loading_view, null);
+        loadAllView = LayoutInflater.from(this).inflate(R.layout.load_all_view, null);
         ptrFrameLayout.setPtrHandler(new PtrDefaultHandler() {
             //检查是否可以刷新
             @Override
@@ -71,21 +77,33 @@ public class LinearLayoutActivity extends AppCompatActivity {
      * 给recyclerView设置适配器
      */
     public void setAdapter() {
-        Log.e("tag", "size" + dataList.size());
+        Log.e("setAdapter", "size" + dataList.size());
         if (adapter == null) {
-            adapter = new MyAdapter(recyclerView, dataList, new OnLoadMoreListener() {
+            adapter = new RvAdapter(dataList);
+            //adapter.addHeaderView(headerView);
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+            recyclerView.setAdapter(adapter);
+            adapter.setOnItemClickListener(new OnItemClickListener() {
+                @Override
+                public void onItemClick(View view, int position) {
+                    Toast.makeText(LinearLayoutActivity.this, "你点击了position:" + position, Toast.LENGTH_SHORT).show();
+                }
+            });
+            adapter.setOnItemLongClickListener(new OnItemLongClickListener() {
+                @Override
+                public void onItemLongClick(View view, int position) {
+                    Toast.makeText(LinearLayoutActivity.this, "你长按了position:" + position, Toast.LENGTH_SHORT).show();
+                }
+            });
+            adapter.setOnLoadMoreListener(new OnLoadMoreListener() {
                 @Override
                 public void onLoadMore() {
                     //每次上拉加载更多之前要把page++
                     page++;
-                    //每次上拉加载更多之前设置setLoadAll(false)
-                    if (adapter != null) {
-                        adapter.setLoadAll(false);
-                    }
                     getData();
                 }
             });
-            recyclerView.setAdapter(adapter);
+            adapter.addLoadingView(loadingView);
         }
         //更新适配器
         adapter.reset();
@@ -94,6 +112,7 @@ public class LinearLayoutActivity extends AppCompatActivity {
             ptrFrameLayout.refreshComplete();
         }
     }
+
 
     public void getData() {
         new Handler().postDelayed(new Runnable() {
@@ -109,6 +128,8 @@ public class LinearLayoutActivity extends AppCompatActivity {
                     if (page > 3) {
                         if (adapter != null) {
                             adapter.setLoadAll(true);
+                            //加载完成用Footer
+                            adapter.addFooterView(loadAllView);
                         }
                     } else {
                         for (int i = 0; i < 10; i++) {

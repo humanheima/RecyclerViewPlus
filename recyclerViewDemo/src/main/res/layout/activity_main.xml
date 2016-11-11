@@ -4,6 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        android:text="展示RecyclerView 下拉刷新和上拉加载更多，可添加head,foot布局,可添加点击事件和长按点击事件" />
+
     <Button
         android:id="@+id/btn_linear_layout"
         android:layout_width="wrap_content"
