@@ -41,4 +41,15 @@
         android:layout_height="wrap_content"
         android:text="测试轮播控件" />
 
+    <Button
+        android:id="@+id/btn_scroll_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scrollview和RecyclerView滑动冲突" />
+    <Button
+        android:id="@+id/btn_recycler_view_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分割线" />
+
 </LinearLayout>

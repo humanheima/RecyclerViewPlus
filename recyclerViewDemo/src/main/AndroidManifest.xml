@@ -21,7 +21,9 @@
         <activity android:name=".ui.activity.GridLayoutActivity" />
         <activity android:name=".ui.activity.StaggeredGridLayoutActivity" />
         <activity android:name=".ui.activity.BannerHeadActivity" />
-        <activity android:name=".ui.activity.BannerActivity"></activity>
+        <activity android:name=".ui.activity.BannerActivity" />
+        <activity android:name=".ui.activity.ScrollViewWithRecyclerViewActivity" />
+        <activity android:name=".ui.activity.ItemDecorationActivity"></activity>
     </application>
 
 </manifest>

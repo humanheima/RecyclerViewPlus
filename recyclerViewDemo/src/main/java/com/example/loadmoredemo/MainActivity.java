@@ -9,7 +9,9 @@ import android.widget.Button;
 import com.example.loadmoredemo.ui.activity.BannerActivity;
 import com.example.loadmoredemo.ui.activity.BannerHeadActivity;
 import com.example.loadmoredemo.ui.activity.GridLayoutActivity;
+import com.example.loadmoredemo.ui.activity.ItemDecorationActivity;
 import com.example.loadmoredemo.ui.activity.LinearLayoutActivity;
+import com.example.loadmoredemo.ui.activity.ScrollViewWithRecyclerViewActivity;
 import com.example.loadmoredemo.ui.activity.StaggeredGridLayoutActivity;
 
 import butterknife.BindView;
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnStaggeredLayout;
     @BindView(R.id.btn_banner_head)
     Button btnBannerHead;
+    @BindView(R.id.btn_recycler_view_divider)
+    Button btnRecyclerViewDivider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btn_linear_layout, R.id.btn_grid_layout, R.id.btn_staggered_layout, R.id.btn_banner_head, R.id.btn_test_banner})
+    @OnClick({R.id.btn_linear_layout, R.id.btn_grid_layout, R.id.btn_staggered_layout, R.id.btn_banner_head, R.id.btn_test_banner, R.id.btn_scroll_recycler})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_linear_layout:
@@ -53,8 +57,16 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_test_banner:
                 startActivity(new Intent(this, BannerActivity.class));
                 break;
+            case R.id.btn_scroll_recycler:
+                startActivity(new Intent(this, ScrollViewWithRecyclerViewActivity.class));
+                break;
             default:
                 break;
         }
+    }
+
+    @OnClick(R.id.btn_recycler_view_divider)
+    public void onClick() {
+        startActivity(new Intent(this, ItemDecorationActivity.class));
     }
 }

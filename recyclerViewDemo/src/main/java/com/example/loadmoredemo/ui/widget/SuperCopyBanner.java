@@ -211,11 +211,6 @@ public class SuperCopyBanner extends RelativeLayout implements ViewPager.OnPageC
         return this;
     }
 
-    /*public SuperCopyBanner setPointGravity(int gravity) {
-        this.mPointGravity = gravity;
-        return this;
-    }*/
-
     public SuperCopyBanner setBannerTitles(List<String> titles) {
         this.titles = titles;
         return this;
@@ -393,7 +388,7 @@ public class SuperCopyBanner extends RelativeLayout implements ViewPager.OnPageC
         }
     };
 
-    /*@Override
+    @Override
     protected void onVisibilityChanged(View changedView, int visibility) {
         super.onVisibilityChanged(changedView, visibility);
         if (visibility == VISIBLE) {
@@ -401,7 +396,7 @@ public class SuperCopyBanner extends RelativeLayout implements ViewPager.OnPageC
         } else if (visibility == INVISIBLE) {
             stopAutoPlay();
         }
-    }*/
+    }
 
     @Override
     protected void onDetachedFromWindow() {
